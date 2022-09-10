@@ -1,0 +1,1161 @@
+* Encoding: UTF-8.
+
+
+GET DATA  /TYPE=TXT
+  /FILE="C:\Users\jrivas\Downloads\csv_pca (1)\psam_p06.csv"
+  /ENCODING='Locale'
+  /DELCASE=LINE
+  /DELIMITERS=","
+  /ARRANGEMENT=DELIMITED
+  /FIRSTCASE=2
+  /IMPORTCASE=ALL
+  /VARIABLES=
+  RT A1
+  SERIALNO A13
+  DIVISION F1.0
+  SPORDER F2.0
+  PUMA F5.0
+  REGION F1.0
+  ST F2.0
+  ADJINC F7.0
+  PWGTP F3.0
+  AGEP F2.0
+  CIT F1.0
+  CITWP F4.0
+  COW F1.0
+  DDRS F1.0
+  DEAR F1.0
+  DEYE F1.0
+  DOUT F1.0
+  DPHY F1.0
+  DRAT F1.0
+  DRATX F1.0
+  DREM F1.0
+  ENG F1.0
+  FER F1.0
+  GCL F1.0
+  GCM F1.0
+  GCR F1.0
+  HIMRKS F1.0
+  HINS1 F1.0
+  HINS2 F1.0
+  HINS3 F1.0
+  HINS4 F1.0
+  HINS5 F1.0
+  HINS6 F1.0
+  HINS7 F1.0
+  INTP F6.0
+  JWMNP F3.0
+  JWRIP F2.0
+  JWTRNS F2.0
+  LANX F1.0
+  MAR F1.0
+  MARHD F1.0
+  MARHM F1.0
+  MARHT F1.0
+  MARHW F1.0
+  MARHYP F4.0
+  MIG F1.0
+  MIL F1.0
+  MLPA F1.0
+  MLPB F1.0
+  MLPCD F1.0
+  MLPE F1.0
+  MLPFG F1.0
+  MLPH F1.0
+  MLPI F1.0
+  MLPJ F1.0
+  MLPK F1.0
+  NWAB F1.0
+  NWAV F1.0
+  NWLA F1.0
+  NWLK F1.0
+  NWRE F1.0
+  OIP F5.0
+  PAP F4.0
+  RELSHIPP F2.0
+  RETP F5.0
+  SCH F1.0
+  SCHG F2.0
+  SCHL F2.0
+  SEMP F5.0
+  SEX F1.0
+  SSIP F5.0
+  SSP F5.0
+  WAGP F5.0
+  WKHP F2.0
+  WKL F1.0
+  WKWN F2.0
+  WRK F1.0
+  YOEP F4.0
+  ANC F1.0
+  ANC1P F3.0
+  ANC2P F3.0
+  DECADE F1.0
+  DIS F1.0
+  DRIVESP F1.0
+  ESP F1.0
+  ESR F1.0
+  FOD1P F4.0
+  FOD2P F4.0
+  HICOV F1.0
+  HISP F2.0
+  INDP F4.0
+  JWAP F3.0
+  JWDP F3.0
+  LANP F4.0
+  MIGPUMA F5.0
+  MIGSP F3.0
+  MSP F1.0
+  NAICSP A8
+  NATIVITY F1.0
+  NOP F1.0
+  OC F1.0
+  OCCP F4.0
+  PAOC F1.0
+  PERNP F5.0
+  PINCP F6.0
+  POBP F3.0
+  POVPIP F3.0
+  POWPUMA F5.0
+  POWSP F3.0
+  PRIVCOV F1.0
+  PUBCOV F1.0
+  QTRBIR F1.0
+  RAC1P F1.0
+  RAC2P F2.0
+  RAC3P F3.0
+  RACAIAN F1.0
+  RACASN F1.0
+  RACBLK F1.0
+  RACNH F1.0
+  RACNUM F1.0
+  RACPI F1.0
+  RACSOR F1.0
+  RACWHT F1.0
+  RC F1.0
+  SCIENGP F1.0
+  SCIENGRLP F1.0
+  SFN F1.0
+  SFR F1.0
+  SOCP A6
+  VPS F2.0
+  WAOB F1.0
+  FAGEP F1.0
+  FANCP F1.0
+  FCITP F1.0
+  FCITWP F1.0
+  FCOWP F1.0
+  FDDRSP F1.0
+  FDEARP F1.0
+  FDEYEP F1.0
+  FDISP F1.0
+  FDOUTP F1.0
+  FDPHYP F1.0
+  FDRATP F1.0
+  FDRATXP F1.0
+  FDREMP F1.0
+  FENGP F1.0
+  FESRP F1.0
+  FFERP F1.0
+  FFODP F1.0
+  FGCLP F1.0
+  FGCMP F1.0
+  FGCRP F1.0
+  FHICOVP F1.0
+  FHIMRKSP F1.0
+  FHINS1P F1.0
+  FHINS2P F1.0
+  FHINS3C F1.0
+  FHINS3P F1.0
+  FHINS4C F1.0
+  FHINS4P F1.0
+  FHINS5C F1.0
+  FHINS5P F1.0
+  FHINS6P F1.0
+  FHINS7P F1.0
+  FHISP F1.0
+  FINDP F1.0
+  FINTP F1.0
+  FJWDP F1.0
+  FJWMNP F1.0
+  FJWRIP F1.0
+  FJWTRNSP F1.0
+  FLANP F1.0
+  FLANXP F1.0
+  FMARP F1.0
+  FMARHDP F1.0
+  FMARHMP F1.0
+  FMARHTP F1.0
+  FMARHWP F1.0
+  FMARHYP F1.0
+  FMIGP F1.0
+  FMIGSP F1.0
+  FMILPP F1.0
+  FMILSP F1.0
+  FOCCP F1.0
+  FOIP F1.0
+  FPAP F1.0
+  FPERNP F1.0
+  FPINCP F1.0
+  FPOBP F1.0
+  FPOWSP F1.0
+  FPRIVCOVP F1.0
+  FPUBCOVP F1.0
+  FRACP F1.0
+  FRELSHIPP F1.0
+  FRETP F1.0
+  FSCHGP F1.0
+  FSCHLP F1.0
+  FSCHP F1.0
+  FSEMP F1.0
+  FSEXP F1.0
+  FSSIP F1.0
+  FSSP F1.0
+  FWAGP F1.0
+  FWKHP F1.0
+  FWKLP F1.0
+  FWKWNP F1.0
+  FWRKP F1.0
+  FYOEP F1.0
+  PWGTP1 F3.0
+  PWGTP2 F3.0
+  PWGTP3 F3.0
+  PWGTP4 F3.0
+  PWGTP5 F3.0
+  PWGTP6 F3.0
+  PWGTP7 F3.0
+  PWGTP8 F3.0
+  PWGTP9 F3.0
+  PWGTP10 F3.0
+  PWGTP11 F3.0
+  PWGTP12 F3.0
+  PWGTP13 F3.0
+  PWGTP14 F3.0
+  PWGTP15 F3.0
+  PWGTP16 F3.0
+  PWGTP17 F3.0
+  PWGTP18 F3.0
+  PWGTP19 F3.0
+  PWGTP20 F3.0
+  PWGTP21 F3.0
+  PWGTP22 F3.0
+  PWGTP23 F3.0
+  PWGTP24 F3.0
+  PWGTP25 F3.0
+  PWGTP26 F3.0
+  PWGTP27 F3.0
+  PWGTP28 F3.0
+  PWGTP29 F3.0
+  PWGTP30 F3.0
+  PWGTP31 F3.0
+  PWGTP32 F3.0
+  PWGTP33 F3.0
+  PWGTP34 F3.0
+  PWGTP35 F3.0
+  PWGTP36 F3.0
+  PWGTP37 F3.0
+  PWGTP38 F3.0
+  PWGTP39 F3.0
+  PWGTP40 F3.0
+  PWGTP41 F3.0
+  PWGTP42 F3.0
+  PWGTP43 F3.0
+  PWGTP44 F3.0
+  PWGTP45 F3.0
+  PWGTP46 F3.0
+  PWGTP47 F3.0
+  PWGTP48 F3.0
+  PWGTP49 F3.0
+  PWGTP50 F3.0
+  PWGTP51 F3.0
+  PWGTP52 F3.0
+  PWGTP53 F3.0
+  PWGTP54 F3.0
+  PWGTP55 F3.0
+  PWGTP56 F3.0
+  PWGTP57 F3.0
+  PWGTP58 F3.0
+  PWGTP59 F3.0
+  PWGTP60 F3.0
+  PWGTP61 F3.0
+  PWGTP62 F3.0
+  PWGTP63 F3.0
+  PWGTP64 F3.0
+  PWGTP65 F3.0
+  PWGTP66 F3.0
+  PWGTP67 F3.0
+  PWGTP68 F3.0
+  PWGTP69 F3.0
+  PWGTP70 F3.0
+  PWGTP71 F3.0
+  PWGTP72 F3.0
+  PWGTP73 F3.0
+  PWGTP74 F3.0
+  PWGTP75 F3.0
+  PWGTP76 F3.0
+  PWGTP77 F3.0
+  PWGTP78 F3.0
+  PWGTP79 F3.0
+  PWGTP80 F3.0.
+CACHE.
+EXECUTE.
+DATASET NAME DataSet1 WINDOW=FRONT.
+
+SAVE OUTFILE='C:\Users\jrivas\Downloads\csv_pca (1)\p_ca.sav'
+  /COMPRESSED.
+
+DATASET ACTIVATE DataSet1.
+WEIGHT BY PWGTP.
+
+FREQUENCIES VARIABLES=SEX
+  /ORDER=ANALYSIS.
+
+COMPUTE AGEP_R = 0.
+IF AGEP < 18 AGEP_R = 2.
+IF AGEP >= 18 AGEP_R = 1.
+EXECUTE.
+
+VARIABLE LABELS
+AGEP_R 'Age Group'.
+VALUE LABELS
+AGEP_R
+1 '18+'
+2 'Less than 18 years old'.
+
+COMPUTE AGEP_R5 = 0.
+IF AGEP < 5 AGEP_R5 = 1.
+IF AGEP >= 5 AGEP_R5 = 2.
+EXECUTE.
+
+VARIABLE LABELS
+AGEP_R5 'Age Group (5 years)'.
+VALUE LABELS
+AGEP_R5
+1 'Less than 5 years old'
+2 '5+'.
+
+COMPUTE SD_COUNTY = 2.
+IF (PUMA >= 7300 & PUMA <= 7399) SD_COUNTY = 1.
+EXECUTE.
+
+VARIABLE LABELS
+SD_COUNTY 'San Diego County Flag'.
+VALUE LABELS
+SD_COUNTY
+1 'San Diego County'
+2 'Outside of San Diego County (CA)'.
+
+COMPUTE SD_CITY = 3.
+IF SD_COUNTY = 1 SD_CITY = 2.
+IF (PUMA = 7310 | PUMA = 7311 | PUMA = 7311 | PUMA = 7312 | PUMA = 7315 | PUMA = 7316 | PUMA = 7317 | PUMA = 7318 | PUMA = 7322) SD_CITY = 1.
+EXECUTE.
+
+VARIABLE LABELS
+SD_CITY 'San Diego City Flag'.
+VALUE LABELS
+SD_CITY
+1 'San Diego City'
+2 'Outside of San Diego City, within San Diego County'
+3 'Outside of San Diego County (CA)'.
+
+COMPUTE SD_CITY_CONTINOUS = 4.
+IF SD_COUNTY = 1 SD_CITY_CONTINOUS = 3.
+IF PUMA = 7322 SD_CITY_CONTINOUS = 2.
+IF (PUMA = 7310 | PUMA = 7311 | PUMA = 7311 | PUMA = 7312 | PUMA = 7315 | PUMA = 7316 | PUMA = 7317 | PUMA = 7318) SD_CITY_CONTINOUS = 1.
+EXECUTE.
+
+VARIABLE LABELS
+SD_CITY_CONTINOUS 'San Diego City Continous Flag'.
+VALUE LABELS
+SD_CITY_CONTINOUS
+1 'San Diego City Continous'
+2 'San Ysidro & Otay Mesa'
+3 'Outside of San Diego City, within San Diego County'
+4 'Outside of San Diego County (CA)'.
+
+VALUE LABELS
+PUMA
+7301	'	San Diego County (Northwest)--Oceanside City & Camp Pendleton PUMA	'
+7302	'	San Diego County (North & East)--Fallbrook, Alpine & Valley Center PUMA	'
+7303	'	San Diego County (Northwest)--Vista City PUMA	'
+7304	'	San Diego County (Northwest)--Carlsbad City PUMA	'
+7305	'	San Diego County (Northwest)--San Marcos & Escondido (West) Cities PUMA	'
+7306	'	San Diego County (Northwest)--Escondido City (East) PUMA	'
+7307	'	San Diego County (Central)--Lakeside, Winter Gardens & Ramona PUMA	'
+7308	'	San Diego County (Central)--San Diego (Northeast/Rancho Bernardo) & Poway Cities PUMA	'
+7309	'	San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities PUMA	'
+7310	'	San Diego County (West)--San Diego City (Southwest/Central Coastal) PUMA	'
+7311	'	San Diego County (West Central)--San Diego City (Northwest/Del Mar Mesa) PUMA	'
+7312	'	San Diego County (Central)--San Diego City (Central/Mira Mesa & University Heights) PUMA	'
+7313	'	San Diego County (Central)--El Cajon & Santee Cities PUMA	'
+7314	'	San Diego County (Central)--San Diego (East Central/Navajo) & La Mesa Cities PUMA	'
+7315	'	San Diego County (West Central)--San Diego City (Central/Clairemont & Kearny Mesa) PUMA	'
+7316	'	San Diego County (South Central)--San Diego City (Central/Centre City & Balboa Park) PUMA	'
+7317	'	San Diego County (South Central)--San Diego City (Central/Mid-City) PUMA	'
+7318	'	San Diego County (South)--San Diego City (Southeast/Encanto & Skyline) PUMA	'
+7319	'	San Diego County (South Central)--Lemon Grove City, La Presa & Spring Valley PUMA	'
+7320	'	San Diego County (Southwest)--Sweetwater Region--Chula Vista City (East) PUMA	'
+7321	'	San Diego County (Southwest)--Chula Vista (West) & National City Cities PUMA	'
+7322	'	San Diego County (South)--San Diego City (South/Otay Mesa & South Bay) PUMA	'.
+
+FREQUENCIES VARIABLES=SD_COUNTY SD_CITY SD_CITY_CONTINOUS PUMA
+  /ORDER=ANALYSIS.
+
+VALUE LABELS
+POBP
+1	'	Alabama/AL	'
+2	'	Alaska/AK	'
+4	'	Arizona/AZ	'
+5	'	Arkansas/AR	'
+6	'	California/CA	'
+8	'	Colorado/CO	'
+9	'	Connecticut/CT	'
+10	'	Delaware/DE	'
+11	'	District of Columbia/DC	'
+12	'	Florida/FL	'
+13	'	Georgia/GA	'
+15	'	Hawaii/HI	'
+16	'	Idaho/ID	'
+17	'	Illinois/IL	'
+18	'	Indiana/IN	'
+19	'	Iowa/IA	'
+20	'	Kansas/KS	'
+21	'	Kentucky/KY	'
+22	'	Louisiana/LA	'
+23	'	Maine/ME	'
+24	'	Maryland/MD	'
+25	'	Massachusetts/MA	'
+26	'	Michigan/MI	'
+27	'	Minnesota/MN	'
+28	'	Mississippi/MS	'
+29	'	Missouri/MO	'
+30	'	Montana/MT	'
+31	'	Nebraska/NE	'
+32	'	Nevada/NV	'
+33	'	New Hampshire/NH	'
+34	'	New Jersey/NJ	'
+35	'	New Mexico/NM	'
+36	'	New York/NY	'
+37	'	North Carolina/NC	'
+38	'	North Dakota/ND	'
+39	'	Ohio/OH	'
+40	'	Oklahoma/OK	'
+41	'	Oregon/OR	'
+42	'	Pennsylvania/PA	'
+44	'	Rhode Island/RI	'
+45	'	South Carolina/SC	'
+46	'	South Dakota/SD	'
+47	'	Tennessee/TN	'
+48	'	Texas/TX	'
+49	'	Utah/UT	'
+50	'	Vermont/VT	'
+51	'	Virginia/VA	'
+53	'	Washington/WA	'
+54	'	West Virginia/WV	'
+55	'	Wisconsin/WI	'
+56	'	Wyoming/WY	'
+60	'	American Samoa	'
+66	'	Guam	'
+69	'	Commonwealth of the Northern Mariana Islands	'
+72	'	Puerto Rico	'
+78	'	US Virgin Islands	'
+100	'	Albania	'
+102	'	Austria	'
+103	'	Belgium	'
+104	'	Bulgaria	'
+105	'	Czechoslovakia	'
+106	'	Denmark	'
+108	'	Finland	'
+109	'	France	'
+110	'	Germany	'
+116	'	Greece	'
+117	'	Hungary	'
+118	'	Iceland	'
+119	'	Ireland	'
+120	'	Italy	'
+126	'	Netherlands	'
+127	'	Norway	'
+128	'	Poland	'
+129	'	Portugal	'
+130	'	Azores Islands	'
+132	'	Romania	'
+134	'	Spain	'
+136	'	Sweden	'
+137	'	Switzerland	'
+138	'	United Kingdom, Not Specified	'
+139	'	England	'
+140	'	Scotland	'
+142	'	Northern Ireland	'
+147	'	Yugoslavia	'
+148	'	Czech Republic	'
+149	'	Slovakia	'
+150	'	Bosnia and Herzegovina	'
+151	'	Croatia	'
+152	'	Macedonia	'
+154	'	Serbia	'
+156	'	Latvia	'
+157	'	Lithuania	'
+158	'	Armenia	'
+159	'	Azerbaijan	'
+160	'	Belarus	'
+161	'	Georgia	'
+162	'	Moldova	'
+163	'	Russia	'
+164	'	Ukraine	'
+165	'	USSR	'
+166	'	Europe	'
+167	'	Kosovo	'
+168	'	Montenegro	'
+169	'	Other Europe, Not Specified	'
+200	'	Afghanistan	'
+202	'	Bangladesh	'
+203	'	Bhutan	'
+205	'	Myanmar	'
+206	'	Cambodia	'
+207	'	China	'
+209	'	Hong Kong	'
+210	'	India	'
+211	'	Indonesia	'
+212	'	Iran	'
+213	'	Iraq	'
+214	'	Israel	'
+215	'	Japan	'
+216	'	Jordan	'
+217	'	Korea	'
+218	'	Kazakhstan	'
+219	'	Kyrgyzstan	'
+222	'	Kuwait	'
+223	'	Laos	'
+224	'	Lebanon	'
+226	'	Malaysia	'
+228	'	Mongolia	'
+229	'	Nepal	'
+231	'	Pakistan	'
+233	'	Philippines	'
+235	'	Saudi Arabia	'
+236	'	Singapore	'
+238	'	Sri Lanka	'
+239	'	Syria	'
+240	'	Taiwan	'
+242	'	Thailand	'
+243	'	Turkey	'
+245	'	United Arab Emirates	'
+246	'	Uzbekistan	'
+247	'	Vietnam	'
+248	'	Yemen	'
+249	'	Asia	'
+253	'	South Central Asia, Not Specified	'
+254	'	Other Asia, Not Specified	'
+300	'	Bermuda	'
+301	'	Canada	'
+303	'	Mexico	'
+310	'	Belize	'
+311	'	Costa Rica	'
+312	'	El Salvador	'
+313	'	Guatemala	'
+314	'	Honduras	'
+315	'	Nicaragua	'
+316	'	Panama	'
+321	'	Antigua and Barbuda	'
+323	'	Bahamas	'
+324	'	Barbados	'
+327	'	Cuba	'
+328	'	Dominica	'
+329	'	Dominican Republic	'
+330	'	Grenada	'
+332	'	Haiti	'
+333	'	Jamaica	'
+338	'	St. Kitts-Nevis	'
+339	'	St. Lucia	'
+340	'	St. Vincent and the Grenadines	'
+341	'	Trinidad and Tobago	'
+343	'	West Indies	'
+344	'	Caribbean, Not Specified	'
+360	'	Argentina	'
+361	'	Bolivia	'
+362	'	Brazil	'
+363	'	Chile	'
+364	'	Colombia	'
+365	'	Ecuador	'
+368	'	Guyana	'
+369	'	Paraguay	'
+370	'	Peru	'
+372	'	Uruguay	'
+373	'	Venezuela	'
+374	'	South America	'
+399	'	Americas, Not Specified	'
+400	'	Algeria	'
+407	'	Cameroon	'
+408	'	Cabo Verde	'
+412	'	Congo	'
+414	'	Egypt	'
+416	'	Ethiopia	'
+417	'	Eritrea	'
+420	'	Gambia	'
+421	'	Ghana	'
+423	'	Guinea	'
+425	'	Ivory Coast	'
+427	'	Kenya	'
+429	'	Liberia	'
+430	'	Libya	'
+436	'	Morocco	'
+440	'	Nigeria	'
+442	'	Rwanda	'
+444	'	Senegal	'
+447	'	Sierra Leone	'
+448	'	Somalia	'
+449	'	South Africa	'
+451	'	Sudan	'
+453	'	Tanzania	'
+454	'	Togo	'
+456	'	Tunisia	'
+457	'	Uganda	'
+459	'	Democratic Republic of Congo (Zaire)	'
+460	'	Zambia	'
+461	'	Zimbabwe	'
+462	'	Africa	'
+463	'	South Sudan	'
+464	'	Northern Africa, Not Specified	'
+467	'	Western Africa, Not Specified	'
+468	'	Other Africa, Not Specified	'
+469	'	Eastern Africa, Not Specified	'
+501	'	Australia	'
+508	'	Fiji	'
+511	'	Marshall Islands	'
+512	'	Micronesia	'
+515	'	New Zealand	'
+523	'	Tonga	'
+527	'	Samoa	'
+554	'	Other US Island Areas, Oceania, Not Specified, or at Sea	'.
+
+RECODE POBP (1 thru 56=1) (ELSE=Copy) INTO COO.
+VARIABLE LABELS  COO 'Country of Birth'.
+EXECUTE.
+
+VALUE LABELS
+COO
+1	'	United States'
+60	'	American Samoa	'
+66	'	Guam	'
+69	'	Commonwealth of the Northern Mariana Islands	'
+72	'	Puerto Rico	'
+78	'	US Virgin Islands	'
+100	'	Albania	'
+102	'	Austria	'
+103	'	Belgium	'
+104	'	Bulgaria	'
+105	'	Czechoslovakia	'
+106	'	Denmark	'
+108	'	Finland	'
+109	'	France	'
+110	'	Germany	'
+116	'	Greece	'
+117	'	Hungary	'
+118	'	Iceland	'
+119	'	Ireland	'
+120	'	Italy	'
+126	'	Netherlands	'
+127	'	Norway	'
+128	'	Poland	'
+129	'	Portugal	'
+130	'	Azores Islands	'
+132	'	Romania	'
+134	'	Spain	'
+136	'	Sweden	'
+137	'	Switzerland	'
+138	'	United Kingdom, Not Specified	'
+139	'	England	'
+140	'	Scotland	'
+142	'	Northern Ireland	'
+147	'	Yugoslavia	'
+148	'	Czech Republic	'
+149	'	Slovakia	'
+150	'	Bosnia and Herzegovina	'
+151	'	Croatia	'
+152	'	Macedonia	'
+154	'	Serbia	'
+156	'	Latvia	'
+157	'	Lithuania	'
+158	'	Armenia	'
+159	'	Azerbaijan	'
+160	'	Belarus	'
+161	'	Georgia	'
+162	'	Moldova	'
+163	'	Russia	'
+164	'	Ukraine	'
+165	'	USSR	'
+166	'	Europe	'
+167	'	Kosovo	'
+168	'	Montenegro	'
+169	'	Other Europe, Not Specified	'
+200	'	Afghanistan	'
+202	'	Bangladesh	'
+203	'	Bhutan	'
+205	'	Myanmar	'
+206	'	Cambodia	'
+207	'	China	'
+209	'	Hong Kong	'
+210	'	India	'
+211	'	Indonesia	'
+212	'	Iran	'
+213	'	Iraq	'
+214	'	Israel	'
+215	'	Japan	'
+216	'	Jordan	'
+217	'	Korea	'
+218	'	Kazakhstan	'
+219	'	Kyrgyzstan	'
+222	'	Kuwait	'
+223	'	Laos	'
+224	'	Lebanon	'
+226	'	Malaysia	'
+228	'	Mongolia	'
+229	'	Nepal	'
+231	'	Pakistan	'
+233	'	Philippines	'
+235	'	Saudi Arabia	'
+236	'	Singapore	'
+238	'	Sri Lanka	'
+239	'	Syria	'
+240	'	Taiwan	'
+242	'	Thailand	'
+243	'	Turkey	'
+245	'	United Arab Emirates	'
+246	'	Uzbekistan	'
+247	'	Vietnam	'
+248	'	Yemen	'
+249	'	Asia	'
+253	'	South Central Asia, Not Specified	'
+254	'	Other Asia, Not Specified	'
+300	'	Bermuda	'
+301	'	Canada	'
+303	'	Mexico	'
+310	'	Belize	'
+311	'	Costa Rica	'
+312	'	El Salvador	'
+313	'	Guatemala	'
+314	'	Honduras	'
+315	'	Nicaragua	'
+316	'	Panama	'
+321	'	Antigua and Barbuda	'
+323	'	Bahamas	'
+324	'	Barbados	'
+327	'	Cuba	'
+328	'	Dominica	'
+329	'	Dominican Republic	'
+330	'	Grenada	'
+332	'	Haiti	'
+333	'	Jamaica	'
+338	'	St. Kitts-Nevis	'
+339	'	St. Lucia	'
+340	'	St. Vincent and the Grenadines	'
+341	'	Trinidad and Tobago	'
+343	'	West Indies	'
+344	'	Caribbean, Not Specified	'
+360	'	Argentina	'
+361	'	Bolivia	'
+362	'	Brazil	'
+363	'	Chile	'
+364	'	Colombia	'
+365	'	Ecuador	'
+368	'	Guyana	'
+369	'	Paraguay	'
+370	'	Peru	'
+372	'	Uruguay	'
+373	'	Venezuela	'
+374	'	South America	'
+399	'	Americas, Not Specified	'
+400	'	Algeria	'
+407	'	Cameroon	'
+408	'	Cabo Verde	'
+412	'	Congo	'
+414	'	Egypt	'
+416	'	Ethiopia	'
+417	'	Eritrea	'
+420	'	Gambia	'
+421	'	Ghana	'
+423	'	Guinea	'
+425	'	Ivory Coast	'
+427	'	Kenya	'
+429	'	Liberia	'
+430	'	Libya	'
+436	'	Morocco	'
+440	'	Nigeria	'
+442	'	Rwanda	'
+444	'	Senegal	'
+447	'	Sierra Leone	'
+448	'	Somalia	'
+449	'	South Africa	'
+451	'	Sudan	'
+453	'	Tanzania	'
+454	'	Togo	'
+456	'	Tunisia	'
+457	'	Uganda	'
+459	'	Democratic Republic of Congo (Zaire)	'
+460	'	Zambia	'
+461	'	Zimbabwe	'
+462	'	Africa	'
+463	'	South Sudan	'
+464	'	Northern Africa, Not Specified	'
+467	'	Western Africa, Not Specified	'
+468	'	Other Africa, Not Specified	'
+469	'	Eastern Africa, Not Specified	'
+501	'	Australia	'
+508	'	Fiji	'
+511	'	Marshall Islands	'
+512	'	Micronesia	'
+515	'	New Zealand	'
+523	'	Tonga	'
+527	'	Samoa	'
+554	'	Other US Island Areas, Oceania, Not Specified, or at Sea	'.
+
+RECODE POBP (1 thru 56=1) (57 thru 78=2) (100 thru 199=3) (200 thru 299=4) (300 thru 399=5) (400 thru 499=6) INTO CON_O.
+VARIABLE LABELS  CON_O 'Continent of Birth'.
+EXECUTE.
+
+VALUE LABELS
+CON_O
+1	'	United States'
+2 'U.S. Territories'
+3 'Europe'
+4' Asia'
+5 'America (excluding the U.S.)'
+6 'Oceania'.
+
+CROSSTABS
+  /TABLES=POBP COO CON_O BY SD_CITY_CONTINOUS
+  /FORMAT=AVALUE TABLES
+  /CELLS=COUNT
+  /COUNT ROUND CELL.
+
+COMPUTE LANG_CAT = 0.
+IF LANX = 1 LANG_CAT = 1.
+IF LANX = 2 LANG_CAT  = 2.
+IF AGEP < 5 LANG_CAT  = 3.
+EXECUTE.
+
+VARIABLE LABELS
+LANG_CAT 'Language Category'.
+VALUE LABELS
+LANG_CAT
+1 'Other language than English spoken at home'
+2 'Speaks only English'
+3 'Less than 5 years old'.
+
+COMPUTE LANG_DET = 0.
+IF LANG_CAT = 2 LANG_DET = 1.
+IF LANG_CAT = 1 LANG_DET = LANP.
+EXECUTE.
+
+VARIABLE LABELS
+LANG_DET 'Language Detailed'.
+VALUE LABELS
+LANG_DET
+0 'Less than 5 years old'
+1 'Speaks only English'
+1000	'	Jamaican Creole English	'
+1025	'	Other English-based Creole languages	'
+1055	'	Haitian	'
+1069	'	Kabuverdianu	'
+1110	'	German	'
+1120	'	Swiss German	'
+1125	'	Pennsylvania German	'
+1130	'	Yiddish	'
+1132	'	Dutch	'
+1134	'	Afrikaans	'
+1140	'	Swedish	'
+1141	'	Danish	'
+1142	'	Norwegian	'
+1155	'	Italian	'
+1170	'	French	'
+1175	'	Cajun French	'
+1200	'	Spanish	'
+1210	'	Portuguese	'
+1220	'	Romanian	'
+1231	'	Irish	'
+1235	'	Greek	'
+1242	'	Albanian	'
+1250	'	Russian	'
+1260	'	Ukrainian	'
+1262	'	Czech	'
+1263	'	Slovak	'
+1270	'	Polish	'
+1273	'	Bulgarian	'
+1274	'	Macedonian	'
+1275	'	Serbocroatian	'
+1276	'	Bosnian	'
+1277	'	Croatian	'
+1278	'	Serbian	'
+1281	'	Lithuanian	'
+1283	'	Latvian	'
+1288	'	Armenian	'
+1290	'	Farsi	'
+1292	'	Dari	'
+1315	'	Kurdish	'
+1327	'	Pashto	'
+1340	'	India N.E.C.	'
+1350	'	Hindi	'
+1360	'	Urdu	'
+1380	'	Bengali	'
+1420	'	Punjabi	'
+1435	'	Konkani	'
+1440	'	Marathi	'
+1450	'	Gujarati	'
+1500	'	Nepali	'
+1525	'	Pakistan N.E.C.	'
+1530	'	Sinhala	'
+1540	'	Other Indo-Iranian languages	'
+1564	'	Other Indo-European languages	'
+1565	'	Finnish	'
+1582	'	Hungarian	'
+1675	'	Turkish	'
+1690	'	Mongolian	'
+1730	'	Telugu	'
+1737	'	Kannada	'
+1750	'	Malayalam	'
+1765	'	Tamil	'
+1900	'	Khmer	'
+1960	'	Vietnamese	'
+1970	'	Chinese	'
+2000	'	Mandarin	'
+2030	'	Min Nan Chinese	'
+2050	'	Cantonese	'
+2100	'	Tibetan	'
+2160	'	Burmese	'
+2270	'	Chin languages	'
+2350	'	Karen languages	'
+2430	'	Thai	'
+2475	'	Lao	'
+2525	'	Iu Mien	'
+2535	'	Hmong	'
+2560	'	Japanese	'
+2575	'	Korean	'
+2715	'	Malay	'
+2770	'	Indonesian	'
+2850	'	Other languages of Asia	'
+2910	'	Filipino	'
+2920	'	Tagalog	'
+2950	'	Cebuano	'
+3150	'	Ilocano	'
+3190	'	Other Philippine languages	'
+3220	'	Chamorro	'
+3270	'	Marshallese	'
+3350	'	Chuukese	'
+3420	'	Samoan	'
+3500	'	Tongan	'
+3570	'	Hawaiian	'
+3600	'	Other Eastern Malayo-Polynesian languages	'
+4500	'	Arabic	'
+4545	'	Hebrew	'
+4560	'	Assyrian Neo-Aramaic	'
+4565	'	Chaldean Neo-Aramaic	'
+4590	'	Amharic	'
+4640	'	Tigrinya	'
+4830	'	Oromo	'
+4840	'	Somali	'
+4880	'	Other Afro-Asiatic languages	'
+4900	'	Nilo-Saharan languages	'
+5150	'	Swahili	'
+5345	'	Ganda	'
+5525	'	Shona	'
+5645	'	Other Bantu languages	'
+5845	'	Manding languages	'
+5900	'	Other Mande languages	'
+5940	'	Fulah	'
+5950	'	Wolof	'
+6120	'	Akan (incl. Twi)	'
+6205	'	Ga	'
+6230	'	Gbe languages	'
+6290	'	Yoruba	'
+6300	'	Edoid languages	'
+6370	'	Igbo	'
+6500	'	Other Niger-Congo languages	'
+6795	'	Other languages of Africa	'
+6800	'	Aleut languages	'
+6839	'	Ojibwa	'
+6930	'	Apache languages	'
+6933	'	Navajo	'
+7019	'	Dakota languages	'
+7032	'	Muskogean languages	'
+7039	'	Keres	'
+7050	'	Cherokee	'
+7060	'	Uto-Aztecan languages	'
+7124	'	Other Native North American languages	'
+7300	'	Other Central and South American languages	'
+9999	'	Other and unspecified languages	'.
+
+COMPUTE ENG_PROF = 0.
+IF ENG = 3 | ENG = 4 ENG_PROF = 1.
+IF ENG = 1 | ENG = 2 | LANX = 2 ENG_PROF = 2.
+IF AGEP < 5 ENG_PROF  = 3.
+EXECUTE.
+
+VARIABLE LABELS
+ENG_PROF 'English Proficiency'.
+VALUE LABELS
+ENG_PROF
+1 'Not well/Not at all English'
+2 'Only/Very well/Well English'
+3 'Less than 5 years old'.
+
+COMPUTE LANG_DET_PROF = 0.
+IF ENG_PROF = 1 LANG_DET_PROF = LANP.
+IF ENG_PROF = 2 LANG_DET_PROF = 1.
+EXECUTE.
+
+VARIABLE LABELS
+LANG_DET_PROF 'Language Detailed (Adjusted by English Proficiency)'.
+VALUE LABELS
+LANG_DET_PROF
+0 'Less than 5 years old'
+1 'Speaks English'
+1000	'	Jamaican Creole English	'
+1025	'	Other English-based Creole languages	'
+1055	'	Haitian	'
+1069	'	Kabuverdianu	'
+1110	'	German	'
+1120	'	Swiss German	'
+1125	'	Pennsylvania German	'
+1130	'	Yiddish	'
+1132	'	Dutch	'
+1134	'	Afrikaans	'
+1140	'	Swedish	'
+1141	'	Danish	'
+1142	'	Norwegian	'
+1155	'	Italian	'
+1170	'	French	'
+1175	'	Cajun French	'
+1200	'	Spanish	'
+1210	'	Portuguese	'
+1220	'	Romanian	'
+1231	'	Irish	'
+1235	'	Greek	'
+1242	'	Albanian	'
+1250	'	Russian	'
+1260	'	Ukrainian	'
+1262	'	Czech	'
+1263	'	Slovak	'
+1270	'	Polish	'
+1273	'	Bulgarian	'
+1274	'	Macedonian	'
+1275	'	Serbocroatian	'
+1276	'	Bosnian	'
+1277	'	Croatian	'
+1278	'	Serbian	'
+1281	'	Lithuanian	'
+1283	'	Latvian	'
+1288	'	Armenian	'
+1290	'	Farsi	'
+1292	'	Dari	'
+1315	'	Kurdish	'
+1327	'	Pashto	'
+1340	'	India N.E.C.	'
+1350	'	Hindi	'
+1360	'	Urdu	'
+1380	'	Bengali	'
+1420	'	Punjabi	'
+1435	'	Konkani	'
+1440	'	Marathi	'
+1450	'	Gujarati	'
+1500	'	Nepali	'
+1525	'	Pakistan N.E.C.	'
+1530	'	Sinhala	'
+1540	'	Other Indo-Iranian languages	'
+1564	'	Other Indo-European languages	'
+1565	'	Finnish	'
+1582	'	Hungarian	'
+1675	'	Turkish	'
+1690	'	Mongolian	'
+1730	'	Telugu	'
+1737	'	Kannada	'
+1750	'	Malayalam	'
+1765	'	Tamil	'
+1900	'	Khmer	'
+1960	'	Vietnamese	'
+1970	'	Chinese	'
+2000	'	Mandarin	'
+2030	'	Min Nan Chinese	'
+2050	'	Cantonese	'
+2100	'	Tibetan	'
+2160	'	Burmese	'
+2270	'	Chin languages	'
+2350	'	Karen languages	'
+2430	'	Thai	'
+2475	'	Lao	'
+2525	'	Iu Mien	'
+2535	'	Hmong	'
+2560	'	Japanese	'
+2575	'	Korean	'
+2715	'	Malay	'
+2770	'	Indonesian	'
+2850	'	Other languages of Asia	'
+2910	'	Filipino	'
+2920	'	Tagalog	'
+2950	'	Cebuano	'
+3150	'	Ilocano	'
+3190	'	Other Philippine languages	'
+3220	'	Chamorro	'
+3270	'	Marshallese	'
+3350	'	Chuukese	'
+3420	'	Samoan	'
+3500	'	Tongan	'
+3570	'	Hawaiian	'
+3600	'	Other Eastern Malayo-Polynesian languages	'
+4500	'	Arabic	'
+4545	'	Hebrew	'
+4560	'	Assyrian Neo-Aramaic	'
+4565	'	Chaldean Neo-Aramaic	'
+4590	'	Amharic	'
+4640	'	Tigrinya	'
+4830	'	Oromo	'
+4840	'	Somali	'
+4880	'	Other Afro-Asiatic languages	'
+4900	'	Nilo-Saharan languages	'
+5150	'	Swahili	'
+5345	'	Ganda	'
+5525	'	Shona	'
+5645	'	Other Bantu languages	'
+5845	'	Manding languages	'
+5900	'	Other Mande languages	'
+5940	'	Fulah	'
+5950	'	Wolof	'
+6120	'	Akan (incl. Twi)	'
+6205	'	Ga	'
+6230	'	Gbe languages	'
+6290	'	Yoruba	'
+6300	'	Edoid languages	'
+6370	'	Igbo	'
+6500	'	Other Niger-Congo languages	'
+6795	'	Other languages of Africa	'
+6800	'	Aleut languages	'
+6839	'	Ojibwa	'
+6930	'	Apache languages	'
+6933	'	Navajo	'
+7019	'	Dakota languages	'
+7032	'	Muskogean languages	'
+7039	'	Keres	'
+7050	'	Cherokee	'
+7060	'	Uto-Aztecan languages	'
+7124	'	Other Native North American languages	'
+7300	'	Other Central and South American languages	'
+9999	'	Other and unspecified languages	'.
+
+TEMPORARY.
+SELECT IF AGEP >= 18.
+CROSSTABS
+  /TABLES= LANG_DET_PROF BY SD_CITY_CONTINOUS
+  /FORMAT=AVALUE TABLES
+  /CELLS=COUNT
+  /COUNT ROUND CELL.
+
+TEMPORARY.
+SELECT IF AGEP >= 18.
+CROSSTABS
+  /TABLES= LANG_DET BY SD_CITY_CONTINOUS
+  /FORMAT=AVALUE TABLES
+  /CELLS=COUNT
+  /COUNT ROUND CELL.
+
+
+
